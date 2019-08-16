@@ -1,10 +1,15 @@
 katz_deli = []
 
 def line(katz_deli)
+  position = katz_deli.index(name) + 1
+  i=0
   if katz_deli.length ==0 
     puts "The line is currently empty."
   else 
-    p katz_deli.join (", ")
+    print "The line is currentyly: "
+    while i < katz_deli.length 
+      
+    print "#{position}. #{katz_deli[i} "
   end 
 end 
 
