@@ -9,7 +9,7 @@ def line(katz_deli)
   else 
     print "The line is currentyly: "
     while i < katz_deli.length 
-      position[1] = "#{p}. #{katz_deli[i]}"
+      position[i] = "#{p}. #{katz_deli[i]}"
       i+=1
       p+=1
     end
