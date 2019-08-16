@@ -13,7 +13,7 @@ def line(katz_deli)
       i+=1
       p+=1
     end
-    puts position.join (" ")
+    puts "The line is currently: " position.join (" ")
   end 
 end 
 
