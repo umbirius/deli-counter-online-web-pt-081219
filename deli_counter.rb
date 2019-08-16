@@ -32,5 +32,6 @@ def now_serving (katz_deli)
     puts "Currently serving #{serve}."
     katz_deli.shift
   end 
+  end 
 end 
 #take_a_number(["juliano", "goat"], "leeron")
