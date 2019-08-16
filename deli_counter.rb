@@ -2,7 +2,8 @@ katz_deli = []
 
 def line(katz_deli)
   i=0
-  position = katz_deli[i] + 1
+  indexp = katz_deli[i] 
+  position = indexp+1
   if katz_deli.length ==0 
     puts "The line is currently empty."
   else 
