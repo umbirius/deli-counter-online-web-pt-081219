@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  position = katz_deli.index(name) + 1
+  position = katz_deli.index[i] + 1
   i=0
   if katz_deli.length ==0 
     puts "The line is currently empty."
