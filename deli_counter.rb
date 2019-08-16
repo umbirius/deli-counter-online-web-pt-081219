@@ -1,6 +1,7 @@
 katz_deli = []
 
 def line(katz_deli)
+  position = []
   i=0
   p=1
   if katz_deli.length ==0 
@@ -8,10 +9,11 @@ def line(katz_deli)
   else 
     print "The line is currentyly: "
     while i < katz_deli.length 
-      print "#{p}. #{katz_deli[i]} "
+      position[1] = "#{p}. #{katz_deli[i]}"
       i+=1
       p+=1
-    end 
+    end
+    puts position.join (" ")
   end 
 end 
 
