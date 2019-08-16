@@ -2,15 +2,15 @@ katz_deli = []
 
 def line(katz_deli)
   i=0
-  indexp = katz_deli[i] 
-  position = indexp + 1
+  p=1
   if katz_deli.length ==0 
     puts "The line is currently empty."
   else 
     print "The line is currentyly: "
     #while i < katz_deli.length 
-    #print "#{position}. #{katz_deli[i]} "
+    #print "#{p}. #{katz_deli[i]} "
     #i+=1
+    #p+=1
   end 
 end 
 
