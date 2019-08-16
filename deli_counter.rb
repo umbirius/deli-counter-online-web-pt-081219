@@ -29,7 +29,8 @@ def now_serving (katz_deli)
     puts "There is nobody waiting to be served!"
   else 
     do |serve| 
-    puts "Currently serving #{katz_deli[0]}."
+    puts "Currently serving #{serve}."
+    
   end 
 end 
 #take_a_number(["juliano", "goat"], "leeron")
