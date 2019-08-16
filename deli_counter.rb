@@ -8,9 +8,10 @@ def line(katz_deli)
   else 
     print "The line is currentyly: "
     while i < katz_deli.length 
-    print "#{p}. #{katz_deli[i]} "
-    i+=1
-    p+=1
+      print "#{p}. #{katz_deli[i]} "
+      i+=1
+      p+=1
+    end 
   end 
 end 
 
