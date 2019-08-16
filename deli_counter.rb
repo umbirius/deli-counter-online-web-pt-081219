@@ -5,8 +5,8 @@ def line(katz_deli)
   i=0
   if katz_deli.length ==0 
     puts "The line is currently empty."
-  ##else 
-    #print "The line is currentyly: "
+  else 
+    print "The line is currentyly: "
     #while i < katz_deli.length 
     #print "#{position}. #{katz_deli[i]} "
     #i+=1
